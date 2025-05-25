@@ -43,7 +43,7 @@ export function EmotionDisplay({ result, isLoading }: EmotionDisplayProps) {
 
   return (
     <Card 
-      className="mt-6 bg-secondary/50 border-border transition-all duration-500 ease-in-out transform opacity-0 animate-fadeIn"
+      className="mt-6 bg-secondary/50 border-border transition-all duration-500 ease-in-out transform animate-fadeIn"
       style={{ animationFillMode: 'forwards' }}
       aria-live="assertive"
       aria-atomic="true"
